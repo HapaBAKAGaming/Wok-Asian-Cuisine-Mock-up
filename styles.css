@@ -1,0 +1,112 @@
+#wrapper {
+    width: 1400px;
+    margin: 0 auto;
+    font-family: 'Oswald', arial, sans-serif;
+    color: white;
+    text-align: center;
+    background-color: #333;
+}
+
+h1 {
+    font-size: 75px;
+    padding-top: 50px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0 auto;
+    height: 100px;
+    padding-left: 150px;
+    overflow: hidden;
+    background-color: #7c1d1d;
+    font-size: 25px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    padding: 35px 100px;
+    color: white;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #333;
+}
+
+main {
+    background-color: #7c1d1d;
+    float: clear;
+    padding-bottom: 20px;
+}
+
+main img {
+    width: 1400px;
+    height: auto;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+main a {
+    font-size: 20px;
+    color: white;
+    text-decoration: underline;
+}
+
+main a:hover {
+    background-color: #333;
+    padding: 20px 10px;
+}
+
+main section {
+    position: relative;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    top: 20px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+#local {
+    float: left;
+    background-color: #7c1d1d;
+    
+}
+
+/* Used as visual for aligning sections */
+section {
+    background-color: #333;
+    margin-top: 0;
+    padding: 0;
+}
+/*  */
+
+#local img {
+    width: 700px;
+    margin: 0;
+    padding: 0;
+}
+
+#chef {
+    float: right;
+    background-color: #7c1d1d;
+}
+
+#chef img {
+    width: 700px;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    clear: both;
+    font-style: italic;
+}
